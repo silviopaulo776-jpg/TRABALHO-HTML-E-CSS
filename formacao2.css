@@ -1,0 +1,63 @@
+
+
+
+
+
+
+/* Estilo para subtítulos (h3) */
+h1 {
+    text-align: center;          /* Centraliza o texto */
+    font-size: 23px;             /* Tamanho da fonte */
+    font-family: Arial, sans-serif; /* Fonte do subtítulo */
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: larger;                    /* Deixa a fonte maior que o normal */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte padrão */
+    padding: 30px;                        /* Espaçamento interno */
+    color: rgb(0, 0, 0);                  /* Cor do texto (preto) */
+}
+
+/* Estilo padrão para divs */
+div {
+    background-color: black;  /* Fundo preto */
+    padding: 25px;            /* Espaçamento interno */
+    margin: 25px;             /* Espaçamento externo */
+}
+
+/* Define a cor de fundo da página */
+body {
+    background-color: rgb(255, 248, 248); /* Tom de branco quase puro */
+}
+
+/* Estilo para divs com classe "div2" */
+.div2 {
+    background-color: rgb(5, 5, 25); /* Fundo azul bem escuro */
+    padding: 25px;                   /* Espaçamento interno */
+    margin: 50px;                    /* Espaçamento externo maior */
+}
+
+
+
+
+
+nav, ul {
+    list-style-type: none; /* Remove os pontos da lista */
+    text-align: center;    /* Centraliza o menu */
+    padding: 0;            /* Remove o espaçamento padrão */
+}
+
+/* Estilo dos itens da lista de navegação */
+nav, ul, li {
+    display: inline;     /* Deixa os links lado a lado */
+    margin: 0 90px;      /* Espaço entre os itens */
+}
+
+/* Estilo dos links do menu */
+nav, ul, li, a {
+    color: rgb(0, 0, 0);                /* Cor do texto */
+    
+    font-size: 20px;                  /* Aumenta tamanho da fonte */
+}
+

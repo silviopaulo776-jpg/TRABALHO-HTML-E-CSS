@@ -1,0 +1,54 @@
+
+
+
+/* Estilo geral do formulário */
+form {
+  display: flex;              /* Organiza os campos em coluna */
+  flex-direction: column;
+  gap: 10px;                  /* Espaço entre os elementos */
+}
+
+/* Campos de entrada e área de texto */
+input, textarea {
+  padding: 10px;              /* Espaçamento interno */
+  border: 1px solid #dfd8d8;  /* Cor da borda */
+  border-radius: 5px;         /* Bordas arredondadas */
+  font-size: 1em;             /* Tamanho da fonte */
+}
+
+/* Botão de enviar */
+input[type="submit"] {
+  background-color: #007BFF;  /* Cor de fundo azul */
+  color: rgb(245, 245, 245);  /* Texto branco */
+  border: none;               /* Sem borda */
+  cursor: pointer;            /* Muda o cursor para "mãozinha" */
+}
+
+/* Efeito ao passar o mouse no botão */
+input[type="submit"]:hover {
+  background-color: #446b95;  /* Azul mais escuro */
+}
+
+/* Fundo da página */
+body {
+  background-color: rgb(87, 71, 71); /* Tom escuro */
+}
+
+/* Estilo do menu de navegação */
+nav, ul {
+    list-style-type: none; /* Remove os pontos da lista */
+    text-align: center;    /* Centraliza o menu */
+    padding: 0;            /* Remove espaçamento padrão */
+}
+
+/* Itens do menu */
+nav, ul, li {
+    display: inline;     /* Coloca os itens lado a lado */
+    margin: 0 90px;      /* Espaçamento entre os links */
+}
+
+/* Links do menu */
+nav, ul, li, a {
+    color: rgb(0, 0, 0);  /* Cor do texto */
+    font-size: 20px;      /* Tamanho da fonte */
+}

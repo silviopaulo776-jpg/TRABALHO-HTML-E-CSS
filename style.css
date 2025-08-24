@@ -1,0 +1,65 @@
+
+
+
+
+
+
+/* Define a cor de fundo geral da página */
+body {
+    background-color: dimgrey;
+}
+
+/* Estilo do título principal */
+h1 {
+    border-color: black;   /* Cor da borda do título  */
+    text-align: center;    /* Centraliza o texto */
+}
+
+/* Estilo para as divs  */
+div {
+    background-color: rgb(69, 68, 68); /* Fundo cinza  */
+    border: 2px;                       /* Espessura da borda */
+    border-radius: 5px;                /* Cantos arredondados */
+    padding: 5px;                      /* Espaçamento interno */
+}
+
+/* Estilo para os parágrafos */
+p {
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 2px;                              /* Espaçamento interno */
+    text-align: center;  
+    font-size: 20px ;                    
+}
+
+
+head {
+   background-color: dimgray; /* Cor de fundo */
+   padding: 10px 0;           /* Espaço em cima e embaixo */
+}
+
+/* Estilo da lista de navegação */
+
+
+nav, ul {
+    list-style-type: none; /* Remove os pontos da lista */
+    text-align: center;    /* Centraliza o menu */
+    padding: 0;            /* Remove o espaçamento padrão */
+}
+
+/* Estilo dos itens da lista de navegação */
+nav, ul, li {
+    display: inline;     /* Deixa os links lado a lado */
+    margin: 0 90px;      /* Espaço entre os itens */
+}
+
+/* Estilo dos links do menu */
+nav, ul, li, a {
+    color: whitesmoke;                /* Cor do texto */
+    
+    font-size: 20px;                  /* Aumenta tamanho da fonte */
+}
+
+
+
+
+

@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+
+/* Estilo para subtítulos h3 */
+h1{
+   text-align: center; /* Centraliza o texto */
+   font-size: 20px;    /* Define tamanho da fonte */
+   color: blue;
+}
+
+/* Classe p2: parágrafos estilizados */
+.p2 {
+    color: rgb(0, 0, 0); /* Cor clara */
+    text-align: left;                  /* Alinha à esquerda */
+    font-size: 20px;                   /* Tamanho da fonte */
+    padding: 10px;                     /* Espaçamento interno */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+                 'Lucida Grande', 'Lucida Sans Unicode', 
+                 Geneva, Verdana, sans-serif; /* Fonte personalizada */
+}
+
+/* Cor de fundo geral da página */
+body {
+    background-color: rgb(20, 16, 16); /
+}
+
+/* Aplica fonte padrão a todos os elementos */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilo para blocos de código (pre) */
+pre {
+    text-align: left;       /* Alinha à esquerda */
+    color: rgb(192, 183, 183); /* Cor clara */
+    font-size: 18px;        /* Tamanho da fonte */
+}
+
+/* Classe p3 destaque em parágrafos */
+.p3 {
+    padding: 10px;                  /* Espaçamento interno */
+    text-align: left;               /* Alinha à esquerda */
+    border-radius: 3px;             /* Bordas arredondadas */
+    border: solid rgb(174, 166, 166);   /* Borda vermelha */
+    font-size: 18px;                /* Tamanho da fonte */
+    color: rgba(152, 150, 150, 0.869); /* Cor do texto */
+}
+
+/* Classe div3: contêiner com fundo e borda */
+.div3 {
+    background-color: rgb(76, 78, 78);  /* Cinza escuro */
+    padding: 30px;                      /* Espaçamento interno */
+    border: solid rgb(181, 177, 177);   /* Borda cinza */
+}
+
+
+/* Estilo para links */
+a {
+    color: rgb(207, 207, 207);   /* Cor clara para links */
+    margin-inline-end: auto;     /* Margem automática à direita */
+}
+
+
+
+
+nav, ul {
+    list-style-type: none; /* Remove os pontos da lista */
+    text-align: center;    /* Centraliza o menu */
+    padding: 0;            /* Remove o espaçamento padrão */
+}
+
+/* Estilo dos itens da lista de navegação */
+nav, ul, li {
+    display: inline;     /* Deixa os links lado a lado */
+    margin: 0 90px;      /* Espaço entre os itens */
+}
+
+/* Estilo dos links do menu */
+nav, ul, li, a {
+    color: whitesmoke;                /* Cor do texto */
+    
+    font-size: 20px;                  /* Aumenta tamanho da fonte */
+}
